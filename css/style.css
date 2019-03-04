@@ -157,6 +157,10 @@ body {
     display: inline;
 }
 
+.service-text {
+	text-align: center;
+}
+
 .service-icon {
     width: 75px;
     height: 75px;
@@ -168,6 +172,7 @@ body {
     color: #e43c5c;
     font-size: 30px;
     margin-right: 10px;
+    margin: 0 auto;
     transition: all 0.5s ease;
     -webkit-transition: all 0.5s ease;
     -moz-transition: all 0.5s ease;
