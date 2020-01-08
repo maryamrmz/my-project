@@ -13,6 +13,11 @@
     src: url("../fonts/BYekan.woff");
 }
 
+* {
+    margin: 0;
+    padding: 0;
+}
+
 body {
     font-family: "BYekan";
 }
@@ -28,7 +33,9 @@ body {
     padding: 20px 0px;
 }
 
-.navbar-default .navbar-nav .active a, .navbar-default .navbar-nav .active a:focus, .navbar-default .navbar-nav .active a:hover {
+.navbar-default .navbar-nav .active a,
+.navbar-default .navbar-nav .active a:focus,
+.navbar-default .navbar-nav .active a:hover {
     color: #354242;
     background-color: #fff;
 }
@@ -37,8 +44,10 @@ body {
     padding-top: 5px;
 }
 
-.navbar-default .navbar-nav .active a, .navbar-default .navbar-nav li a:hover, .navbar-default .navbar-nav li a:focus {
-    border-bottom: 2px solid #e74C3C;
+.navbar-default .navbar-nav .active a,
+.navbar-default .navbar-nav li a:hover,
+.navbar-default .navbar-nav li a:focus {
+    border-bottom: 2px solid #e74c3c;
     outline: none;
 }
 
@@ -99,7 +108,8 @@ body {
     padding-left: 10px;
 }
 
-.btn-banner:hover, .btn-banner:focus {
+.btn-banner:hover,
+.btn-banner:focus {
     background-color: #e43c5c;
     color: #fff;
     border-color: #e74c3c;
@@ -251,7 +261,7 @@ body {
 
 .footer ul {
     width: 30%;
-    margin:0 auto;
+    margin: 0 auto;
 }
 
 .footer li {
